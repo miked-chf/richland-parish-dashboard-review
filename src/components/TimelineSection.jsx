@@ -127,7 +127,7 @@ export default function TimelineSection() {
           <h2 className="font-serif text-forest text-4xl lg:text-5xl font-semibold mb-5">
             We Are Just Getting Started
           </h2>
-          <p className="font-sans text-forest/55 text-base max-w-xl mx-auto leading-relaxed">
+          <p className="font-sans text-forest text-base max-w-xl mx-auto leading-relaxed">
             We will be looking for your voice, input, and vision to help develop the Master Plan.
             Select a step to learn more.
           </p>
@@ -242,7 +242,7 @@ export default function TimelineSection() {
           )}
         </div>
 
-        <p className="font-sans text-forest/30 text-xs text-center mt-10">
+        <p className="font-sans text-forest/80 text-xs text-center mt-10">
           Community input will be a key component throughout the life of the planning process.
         </p>
 
