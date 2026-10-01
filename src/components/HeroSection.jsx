@@ -22,11 +22,11 @@ export default function HeroSection() {
           <span className="block text-brown">Smart Growth.</span>
         </h1>
 
-        <p className="font-sans text-forest/50 text-xs tracking-widest uppercase mb-6">
+        <p className="font-sans text-forest text-xs tracking-widest uppercase mb-6">
           Planning Today for a Stronger Tomorrow
         </p>
 
-        <p className="font-sans text-forest/60 text-base leading-relaxed mb-10 max-w-md">
+        <p className="font-sans text-forest text-base leading-relaxed mb-10 max-w-md">
           This land has always defined us. Now we're writing the plan that defines its future —
           honoring the agriculture, heritage, and character that make Richland Parish home,
           while intentionally shaping what comes next.
@@ -45,15 +45,15 @@ export default function HeroSection() {
         <div className="mt-16 pt-8 border-t border-sand flex gap-10">
           <div>
             <p className="font-serif text-2xl text-forest font-semibold">2026</p>
-            <p className="font-sans text-xs text-forest/50 tracking-wide uppercase mt-1">Planning Year</p>
+            <p className="font-sans text-xs text-forest tracking-wide uppercase mt-1">Planning Year</p>
           </div>
           <div>
             <p className="font-serif text-2xl text-forest font-semibold">~20K</p>
-            <p className="font-sans text-xs text-forest/50 tracking-wide uppercase mt-1">Residents</p>
+            <p className="font-sans text-xs text-forest tracking-wide uppercase mt-1">Residents</p>
           </div>
           <div>
             <p className="font-serif text-2xl text-forest font-semibold">1 Parish</p>
-            <p className="font-sans text-xs text-forest/50 tracking-wide uppercase mt-1">One Vision</p>
+            <p className="font-sans text-xs text-forest tracking-wide uppercase mt-1">One Vision</p>
           </div>
         </div>
       </div>
