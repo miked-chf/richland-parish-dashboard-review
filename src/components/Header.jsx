@@ -70,7 +70,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="font-sans text-sm text-ivory hover:text-white tracking-wide transition-colors duration-150 whitespace-nowrap"
+              className="font-sans text-sm text-ivory hover:text-ivory tracking-wide transition-colors duration-150 whitespace-nowrap"
             >
               {link.label}
             </a>
@@ -104,7 +104,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="font-sans text-sm text-ivory hover:text-white tracking-wide"
+              className="font-sans text-sm text-ivory hover:text-ivory tracking-wide"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}
