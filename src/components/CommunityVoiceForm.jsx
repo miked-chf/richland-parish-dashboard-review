@@ -153,7 +153,7 @@ function ProgressBar({ step, total }) {
         <div
           key={i}
           className={`h-0.5 flex-1 transition-all duration-500 ${
-            i < step ? "bg-sage" : i === step ? "bg-eucalyptus" : "bg-sand"
+            i < step ? "bg-brown" : i === step ? "bg-forest" : "bg-sand"
           }`}
         />
       ))}
@@ -244,7 +244,7 @@ export default function CommunityVoiceForm() {
     <div className="max-w-2xl mx-auto">
       <ProgressBar step={step} total={STEPS.length} />
 
-      <p className="section-label mb-6">Step {step + 1} of {STEPS.length} — {STEPS[step]}</p>
+      <p className="section-label text-brown mb-6">Step {step + 1} of {STEPS.length} — {STEPS[step]}</p>
 
       <div className="flex flex-col gap-8">
         {step === 0 && (
