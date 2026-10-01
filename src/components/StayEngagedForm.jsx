@@ -76,8 +76,8 @@ function RadioPills({ options, value, onChange }) {
           onClick={() => onChange(opt.value)}
           className={`px-4 py-2 text-sm font-sans border transition-colors duration-150 ${
             value === opt.value
-              ? "bg-sage border-sage text-ivory"
-              : "border-ivory/30 text-ivory hover:border-eucalyptus"
+                ? "bg-ivory border-ivory text-forest"
+                : "border-ivory text-ivory hover:bg-ivory/10"
           }`}
         >
           {opt.label}
@@ -128,7 +128,7 @@ function InputField({ label, hint, required, children }) {
   )
 }
 
-const inputCls = "w-full border border-ivory/20 bg-ivory/10 focus:border-eucalyptus focus:outline-none px-4 py-3 font-sans text-sm text-ivory transition-colors placeholder:text-ivory/30"
+const inputCls = "w-full border border-ivory bg-ivory/10 focus:border-eucalyptus focus:outline-none px-4 py-3 font-sans text-sm text-ivory transition-colors placeholder:text-ivory/30"
 
 export default function StayEngagedForm() {
   const [submitting, setSubmitting] = useState(false)
