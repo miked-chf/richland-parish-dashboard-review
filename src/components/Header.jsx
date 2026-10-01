@@ -80,7 +80,7 @@ export default function Header() {
         {/* Right: translate + CTA */}
         <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
           <TranslateWidget />
-          <a href="#community-voice" className="btn-primary text-xs whitespace-nowrap">
+          <a href="#community-voice" className="btn-header text-xs whitespace-nowrap">
             Share Your Voice
           </a>
         </div>
@@ -110,7 +110,7 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a href="#community-voice" className="btn-primary text-center text-xs mt-2" onClick={() => setMenuOpen(false)}>
+          <a href="#community-voice" className="btn-header text-center text-xs mt-2" onClick={() => setMenuOpen(false)}>
             Share Your Voice
           </a>
           <div className="pt-2 border-t border-eucalyptus/20">
