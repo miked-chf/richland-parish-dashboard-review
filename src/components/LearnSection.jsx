@@ -27,7 +27,7 @@ export default function LearnSection() {
     <section id="learn" className="bg-ivory py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <p className="section-label">Learn</p>
+          <p className="section-label text-brown">Learn</p>
           <h2 className="font-serif text-forest text-4xl lg:text-5xl font-semibold mb-5">
             Understanding the Plan
           </h2>
@@ -44,7 +44,7 @@ export default function LearnSection() {
               className="bg-sand p-8 flex flex-col border-t-2 border-sage"
             >
               <span className="text-3xl mb-5">{card.icon}</span>
-              <p className="section-label text-sage mb-2">{card.label}</p>
+              <p className="section-label text-brown mb-2">{card.label}</p>
               <h3 className="font-serif text-forest text-xl font-semibold mb-4 leading-snug">
                 {card.title}
               </h3>
