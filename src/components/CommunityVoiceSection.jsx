@@ -5,7 +5,7 @@ export default function CommunityVoiceSection() {
     <section id="community-voice" className="bg-sand py-24 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
-          <p className="section-label">Community Voice</p>
+          <p className="section-label text-brown">Community Voice</p>
           <h2 className="font-serif text-forest text-4xl lg:text-5xl font-semibold mb-5">
             What does Richland Parish<br className="hidden sm:block" /> mean to you?
           </h2>
