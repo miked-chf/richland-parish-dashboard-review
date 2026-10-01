@@ -23,6 +23,10 @@
     @apply text-xs font-sans font-semibold tracking-widest uppercase text-eucalyptus mb-3;
   }
 
+.btn-header {
+  @apply inline-block bg-ivory text-forest font-sans font-medium text-sm tracking-wide px-8 py-3 border border-ivory hover:bg-sand hover:border-sand transition-colors duration-200;
+}
+  
  .btn-primary {
   @apply inline-block bg-forest text-ivory font-sans font-medium text-sm tracking-wide px-8 py-3 hover:bg-bark transition-colors duration-200;
 }
