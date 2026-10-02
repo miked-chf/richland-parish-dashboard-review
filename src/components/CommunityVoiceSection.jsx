@@ -9,11 +9,11 @@ export default function CommunityVoiceSection() {
           <h2 className="font-serif text-forest text-4xl lg:text-5xl font-semibold mb-5">
             What does Richland Parish<br className="hidden sm:block" /> mean to you?
           </h2>
-          <p className="font-sans text-forest/60 text-base max-w-xl mx-auto leading-relaxed">
+          <p className="font-sans text-forest text-base max-w-xl mx-auto leading-relaxed">
             Your answer will directly shape the identity and direction of this project.
             There are no wrong answers — only your perspective matters here.
           </p>
-          <p className="font-sans text-forest/40 text-xs mt-4 tracking-wide">
+          <p className="font-sans text-forest/90 text-xs mt-4 tracking-wide">
             Please submit one response per person.
           </p>
         </div>
