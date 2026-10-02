@@ -62,7 +62,7 @@ export default function ExistingConditionsSection() {
             <div key={s.label} className="bg-ivory/5 border border-ivory/10 p-6 flex flex-col gap-2">
               <span className="text-2xl">{s.icon}</span>
               <p className="font-serif text-ivory text-3xl font-semibold mt-1">{s.value}</p>
-              <p className="font-sans text-eucalyptus text-sm font-medium">{s.label}</p>
+              <p className="font-sans text-ivory text-sm font-medium">{s.label}</p>
               <p className="font-sans text-ivory text-xs">
                 {s.sub} · <span className="italic">{s.year}</span>
               </p>
