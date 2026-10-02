@@ -160,7 +160,9 @@ export default function TimelineSection() {
                     aria-label={`${m.phase}: ${m.title}`}
                   >
                     {/* Phase label */}
-                    <span className="font-sans text-[10px] tracking-widest uppercase text-forest h-4 flex items-center">
+                    <span className={`font-sans text-[10px] tracking-widest uppercase text-forest h-4 flex items-center ${
+                       isSelected ? "font-semibold" : ""
+                    }`}>
                       {m.phase}
                     </span>
 
@@ -186,7 +188,7 @@ export default function TimelineSection() {
                     {/* Title */}
                     <span className={`
                       font-sans text-[11px] text-center leading-snug transition-colors px-1
-                      ${isSelected ? "text-forest font-semibold" : "text-forest/85 group-hover:text-forest/70"}
+                     ${isSelected ? "text-forest font-semibold" : "text-forest/85 group-hover:text-forest"}
                     `}>
                       {m.title}
                     </span>
