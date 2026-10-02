@@ -66,7 +66,7 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll cue */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-forest/30 z-10">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-forest/85 z-10">
         <span className="font-sans text-xs tracking-widest uppercase">Scroll</span>
         <div className="w-px h-10 bg-gradient-to-b from-forest/30 to-transparent animate-pulse" />
       </div>
