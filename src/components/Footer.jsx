@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="text-ivory/50 py-12 px-6" style={{ backgroundColor: "#1D3521" }}>
+    <footer className="text-ivory/95 py-12 px-6" style={{ backgroundColor: "#1D3521" }}>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6">
 
         {/* Branding */}
@@ -31,7 +31,7 @@ export default function Footer() {
             <a
               key={href}
               href={href}
-              className="font-sans text-xs tracking-wide hover:text-sage transition-colors"
+              className="font-sans text-xs tracking-wide text-ivory/95 hover:text-sage transition-colors"
             >
               {label}
             </a>
