@@ -31,7 +31,7 @@ export default function LearnSection() {
           <h2 className="font-serif text-forest text-4xl lg:text-5xl font-semibold mb-5">
             Understanding the Plan
           </h2>
-          <p className="font-sans text-forest/60 text-base max-w-xl mx-auto leading-relaxed">
+          <p className="font-sans text-forest/90 text-base max-w-xl mx-auto leading-relaxed">
             Not sure what a Master Plan or Development Code is? You're in the right place.
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function LearnSection() {
               <h3 className="font-serif text-forest text-xl font-semibold mb-4 leading-snug">
                 {card.title}
               </h3>
-              <p className="font-sans text-forest/60 text-sm leading-relaxed flex-1">
+              <p className="font-sans text-forest text-sm leading-relaxed flex-1">
                 {card.body}
               </p>
             </div>
