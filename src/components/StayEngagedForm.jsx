@@ -122,7 +122,7 @@ function InputField({ label, hint, required, children }) {
       <label className="font-sans text-sm font-medium text-ivory tracking-wide">
         {label}{required && <span className="text-eucalyptus ml-1">*</span>}
       </label>
-      {hint && <p className="font-sans text-ivory/55 text-xs">{hint}</p>}
+      {hint && <p className="font-sans text-ivory/95 text-xs">{hint}</p>}
       {children}
     </div>
   )
@@ -291,19 +291,21 @@ const [form, setForm] = useState({
 
       {error && <p className="font-sans text-red-400 text-sm">{error}</p>}
 
-      <div className="flex justify-end">
-        <button
-          type="submit"
-          disabled={submitting || !isValid}
-          className={`btn-primary text-xs bg-ivory text-forest hover:bg-sand border-ivory hover:border-sand ${
-            submitting || !isValid ? "opacity-50 cursor-not-allowed" : ""
-          }`}
-        >
-          {submitting ? "Submitting…" : "Sign Me Up"}
-        </button>
-      </div>
+<div className="flex justify-end">
+  <button
+    type="submit"
+    disabled={submitting || !isValid}
+    className={`btn-primary text-xs ${
+      submitting || !isValid
+        ? "bg-transparent text-ivory border border-sand cursor-not-allowed"
+        : "bg-ivory text-forest border border-ivory hover:bg-sand hover:border-sand"
+    }`}
+  >
+    {submitting ? "Submitting…" : "Sign Me Up"}
+  </button>
+</div>
 
-      <p className="font-sans text-ivory/25 text-xs text-center -mt-4">
+      <p className="font-sans text-ivory/95 text-xs text-center -mt-4">
         Your information will never be shared with third parties.
       </p>
     </form>
