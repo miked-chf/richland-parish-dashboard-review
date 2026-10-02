@@ -125,7 +125,7 @@ function Field({ label, hint, required, children }) {
   return (
     <div className="flex flex-col gap-2">
       <label className="font-serif text-forest text-lg font-semibold leading-snug">
-        {label}{required && <span className="text-sage ml-1">*</span>}
+        {label}{required && <span className="text-brown ml-1">*</span>}
       </label>
       {hint && <p className="font-sans text-forest/90 text-xs leading-relaxed">{hint}</p>}
       {children}
