@@ -75,8 +75,8 @@ function RadioGroup({ options, value, onChange }) {
           onClick={() => onChange(opt.value)}
           className={`text-left px-4 py-3 border text-sm font-sans transition-colors duration-150 ${
             value === opt.value
-              ? "border-sage bg-sage/10 text-forest font-medium"
-              : "border-sand bg-white text-forest/70 hover:border-eucalyptus"
+              ? "border-brown bg-sage/10 text-forest font-medium"
+              : "border-forest bg-white text-forest hover:border-brown"
           }`}
         >
           {opt.label}
