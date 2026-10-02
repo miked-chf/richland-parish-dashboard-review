@@ -10,15 +10,15 @@ export default function Footer() {
             alt="Rooted in Richland"
             className="h-16 w-16 rounded-full object-cover mb-3"
           />
-          <p className="font-sans text-xs text-ivory/30">Master Plan &amp; Development Code Update</p>
-          <p className="font-sans text-xs mt-6 text-ivory/20">
+          <p className="font-sans text-xs text-ivory/95">Master Plan &amp; Development Code Update</p>
+          <p className="font-sans text-xs mt-6 text-ivory/95">
             &copy; {new Date().getFullYear()} Richland Parish
           </p>
         </div>
 
         {/* Nav */}
         <nav className="flex flex-col items-center md:items-start gap-3">
-          <p className="font-sans text-[10px] tracking-widest uppercase text-ivory/30 mb-1">Sections</p>
+          <p className="font-sans text-[10px] tracking-widest uppercase text-ivory mb-1">Sections</p>
           {[
             { label: "About",           href: "#about" },
             { label: "Timeline",        href: "#timeline" },
@@ -31,7 +31,7 @@ export default function Footer() {
             <a
               key={href}
               href={href}
-              className="font-sans text-xs tracking-wide hover:text-ivory/80 transition-colors"
+              className="font-sans text-xs tracking-wide hover:text-sage transition-colors"
             >
               {label}
             </a>
@@ -40,24 +40,24 @@ export default function Footer() {
 
         {/* Contact */}
         <div className="flex flex-col items-center md:items-start">
-          <p className="font-sans text-[10px] tracking-widest uppercase text-ivory/30 mb-3">Contact</p>
-          <p className="font-sans text-xs text-ivory/40 mb-3 leading-relaxed">
+          <p className="font-sans text-[10px] tracking-widest uppercase text-ivory/95 mb-3">Contact</p>
+          <p className="font-sans text-xs text-ivory/95 mb-3 leading-relaxed">
             For all your contact needs please contact:
           </p>
           <p className="font-serif text-ivory text-sm font-semibold leading-snug">
             <span className="text-ivory">Wade Hamilton</span>
             <span className="font-sans text-xs text-eucalyptus">, P.E.</span>
           </p>
-          <p className="font-sans text-xs text-ivory/50 mt-1">Engineer</p>
+          <p className="font-sans text-xs text-ivory/95 mt-1">Engineer</p>
           <a
             href="mailto:whamilton@fenstermaker.com"
             className="font-sans text-xs text-sage underline hover:text-ivory transition-colors mt-3"
           >
             whamilton@fenstermaker.com
           </a>
-          <div className="font-sans text-xs text-ivory/50 mt-1.5 flex items-center gap-2">
+          <div className="font-sans text-xs text-ivory/95 mt-1.5 flex items-center gap-2">
             <span>225.344.6701</span>
-            <span className="text-ivory/20">·</span>
+            <span className="text-ivory/95">·</span>
             <span>x1527</span>
           </div>
         </div>
