@@ -51,7 +51,7 @@ export default function Footer() {
           <p className="font-sans text-xs text-ivory/50 mt-1">Engineer</p>
           <a
             href="mailto:whamilton@fenstermaker.com"
-            className="font-sans text-xs text-sage hover:text-ivory transition-colors mt-3"
+            className="font-sans text-xs text-sage underline hover:text-ivory transition-colors mt-3"
           >
             whamilton@fenstermaker.com
           </a>
