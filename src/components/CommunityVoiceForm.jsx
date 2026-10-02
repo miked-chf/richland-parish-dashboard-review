@@ -75,8 +75,8 @@ function RadioGroup({ options, value, onChange }) {
           onClick={() => onChange(opt.value)}
           className={`text-left px-4 py-3 border text-sm font-sans transition-colors duration-150 ${
             value === opt.value
-              ? "border-brown bg-sage/10 text-forest font-medium"
-              : "border-forest bg-white text-forest hover:border-brown"
+              ? "border-2 border-brown bg-sage/10 text-forest font-medium"
+              : "border-forest bg-white text-forest hover:border-brown hover:font-semibold"
           }`}
         >
           {opt.label}
@@ -110,7 +110,7 @@ function PillGroup({ options, selected, onChange, max }) {
                 ? "bg-sage border-sage text-ivory"
                 : disabled
                 ? "border-sand text-forest/25 cursor-not-allowed"
-                : "border-eucalyptus/60 text-forest hover:border-sage"
+                : "border-forest text-forest hover:border-brown hover:font-semibold"
             }`}
           >
             {opt.label}
@@ -127,7 +127,7 @@ function Field({ label, hint, required, children }) {
       <label className="font-serif text-forest text-lg font-semibold leading-snug">
         {label}{required && <span className="text-sage ml-1">*</span>}
       </label>
-      {hint && <p className="font-sans text-forest/45 text-xs leading-relaxed">{hint}</p>}
+      {hint && <p className="font-sans text-forest/90 text-xs leading-relaxed">{hint}</p>}
       {children}
     </div>
   )
@@ -269,7 +269,7 @@ export default function CommunityVoiceForm() {
                 value={form.word_other}
                 onChange={e => set("word_other", e.target.value)}
                 placeholder="Type your own words..."
-                className="w-full border border-sand bg-white focus:border-sage focus:outline-none px-4 py-3 font-sans text-sm text-forest transition-colors placeholder:text-forest/25"
+                className="w-full border border-forest bg-white focus:border-brown focus:outline-none px-4 py-3 font-sans text-sm text-forest transition-colors placeholder:text-forest/75"
               />
             </Field>
           </>
