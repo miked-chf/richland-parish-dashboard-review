@@ -83,14 +83,14 @@ const STATUS = {
   complete: {
     dot: "bg-sage border-sage text-forest",
     ring: "ring-sage/40",
-    badge: "bg-sage/15 text-sage border-sage",
+    badge: "bg-sage/15 text-brown border-brown",
     label: "Completed",
     title: "text-forest",
   },
   active: {
     dot: "bg-eucalyptus border-eucalyptus text-forest",
     ring: "ring-eucalyptus",
-    badge: "bg-eucalyptus/15 text-eucalyptus border-eucalyptus",
+    badge: "bg-eucalyptus/15 text-forest border-forest",
     label: "We Are Here",
     title: "text-forest",
   },
