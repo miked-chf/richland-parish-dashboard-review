@@ -141,7 +141,7 @@ function StyledTextarea({ value, onChange, placeholder, required }) {
       placeholder={placeholder}
       rows={4}
       required={required}
-      className="w-full border border-forest bg-white focus:border-2 focus:border-brown focus:outline-none px-4 py-3 font-sans text-sm text-forest resize-none transition-colors placeholder:text-forest/85"
+      className="w-full border border-forest bg-white focus:border-brown focus:ring-2 focus:ring-brown focus:outline-none px-4 py-3 font-sans text-sm text-forest resize-none transition-colors placeholder:text-forest/85"
     />
   )
 }
@@ -269,7 +269,7 @@ export default function CommunityVoiceForm() {
                 value={form.word_other}
                 onChange={e => set("word_other", e.target.value)}
                 placeholder="Type your own words..."
-                className="w-full border border-forest bg-white focus:border-2 focus:border-brown focus:outline-none px-4 py-3 font-sans text-sm text-forest transition-colors placeholder:text-forest/85"
+                className="w-full border border-forest bg-white focus:border-brown focus:ring-2 focus:ring-brown focus:outline-none px-4 py-3 font-sans text-sm text-forest transition-colors placeholder:text-forest/85"
               />
             </Field>
           </>
